@@ -18,3 +18,14 @@ def min(L):
             if x<=min:
                 min = x
     return min
+
+
+def min(L):
+    if type(L)!=list :
+        return 'erreur, veuillez entrer une liste'
+    else :
+        min=L[0]
+        for x in L :
+            if x<=min:
+                min = x
+    return min
